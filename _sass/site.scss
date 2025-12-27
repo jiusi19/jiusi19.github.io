@@ -406,7 +406,11 @@ ul.menuAna {
       padding-right: 15px;
       padding-top: 5px;
       border-bottom: 5px solid $thrid-color;
-      color: $thrid-color;
+      // color: $thrid-color;
+	  color: #ffffff;  // 白色文字
+  	  text-shadow: 0 0 10px rgba(52, 152, 219, 0.8),  // 蓝色发光
+                   0 0 20px rgba(52, 152, 219, 0.6),
+                   0 0 30px rgba(52, 152, 219, 0.4);
       float: left;
       font-family: $menu-font;
       text-decoration: none;

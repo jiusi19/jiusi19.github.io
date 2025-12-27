@@ -9,10 +9,6 @@ $title-font   : Lobster, cursive;
 $menu-font    : Alegreya Sans SC, sans-serif;
 $main-font    : Roboto Slab, serif;
 
-// 🆕 新增：导航字体
-$nav-font: $menu-font;
-$nav-font-weight: 500;
-
 // Colors
 $blue: #3498db;
 $orange: #e67e22;
@@ -27,22 +23,9 @@ $main-color: $white;
 $background-color: $blue;
 $thrid-color: rgba(52, 152, 219, 0.8);
 
-// 🆕 新增：导航专用颜色
-$header-bg: $white;
-$nav-text: $dark-blue;
-$nav-text-hover: $blue;
-$nav-bg-hover: rgba($blue, 0.08);
-$nav-border: #eaeaea;
-$nav-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-
 // Heigths
 $top-margin: 130px;
 $top-margin-mobile: 100px;
-
-// 🆕 新增：头部高度
-$header-height: 70px;
-$header-height-mobile: 60px;
-$nav-item-height: 40px;
 
 $color_0: #dedecb;
 $color_1: #000;

@@ -417,11 +417,11 @@ ul.menuAna {
 	  padding-top: 5px;
 	  border-bottom: 5px solid $thrid-color;
 	  color: #ffffff;  // 白色文字
-	  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);  // 深色阴影增强可读性
+	  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);  // 深色阴影增强可读性
 	  float: left;
 	  font-family: $menu-font;
 	  text-decoration: none;
-	  transform: translateY(-2px);  // 添加轻微上浮效果
+	  transform: translateY(-3px);  // 添加轻微上浮效果
 	}
   }
 }

@@ -18,7 +18,7 @@ date: 2025-12-28
 
 ## Connect
 
-- **GitHub**: [@jyusy]([https://github.com](https://github.com/jiusi19))
+- **GitHub**: [@jiusi]([https://github.com](https://github.com/jiusi19))
 - **Blog**: [阅读我的文章](/blog)
 - **Projects**: [查看我的项目](/projects)
 

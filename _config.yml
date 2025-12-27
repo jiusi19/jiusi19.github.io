@@ -23,7 +23,7 @@ sass:
 
 # Social
 # if you don't have any of social below, comment the line.
-# email: dingry9@gmail.com
+email: dingry9@gmail.com
 # twitter: username
 # facebook: username
 #google:
@@ -36,7 +36,7 @@ sass:
 github: jiusi19
 # stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
 # linkedin: username
-#xing: username
+# xing: username
 # instagram: username
 # lastfm: username
 # tumblr: username

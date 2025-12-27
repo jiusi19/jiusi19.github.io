@@ -51,15 +51,11 @@
     <div class="ust">
       <div class="ortalaAna">
         <div class="baslikAna">
-          <!-- 标题和导航并排 -->
-          <div class="header-container">
-            <div class="site-title">
-              {{ site.title }}
-            </div>
-            <div class="pc">
-              {% include nav.html %}
-            </div>
-          </div>
+          {{ site.title }}
+        </div>
+
+        <div class="pc">
+          {% include nav.html %}
         </div>
       </div>
     </div>

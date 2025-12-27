@@ -401,16 +401,28 @@ ul.menuAna {
     transition-duration: 1s;
     transition-delay: 0s;
 
-    &:hover {
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 5px;
-      border-bottom: 5px solid $thrid-color;
-      color: $thrid-color;
-      float: left;
-      font-family: $menu-font;
-      text-decoration: none;
-    }
+    // &:hover {
+    //   padding-left: 15px;
+    //   padding-right: 15px;
+    //   padding-top: 5px;
+    //   border-bottom: 5px solid $thrid-color;
+    //   color: $thrid-color;
+    //   float: left;
+    //   font-family: $menu-font;
+    //   text-decoration: none;
+    // }
+	&:hover {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	  padding-top: 5px;
+	  border-bottom: 5px solid $thrid-color;
+	  color: #ffffff;  // 白色文字
+	  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);  // 深色阴影增强可读性
+	  float: left;
+	  font-family: $menu-font;
+	  text-decoration: none;
+	  transform: translateY(-2px);  // 添加轻微上浮效果
+	}
   }
 }
 

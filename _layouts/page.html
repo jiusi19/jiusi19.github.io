@@ -48,7 +48,7 @@
     <div class="menuMobil">
       {% include nav-home.html %}
     </div>
-    <div class="ust">
+    <!-- <div class="ust">
       <div class="ortalaAna">
         <div class="baslikAna">
           {{ site.title }}
@@ -58,7 +58,19 @@
           {% include nav.html %}
         </div>
       </div>
+    </div> -->
+    <div class="ust">
+      <div class="ortalaAna" style="display: flex; justify-content: space-between; align-items: center;">
+      <!-- 标题靠左 -->
+        <div class="baslikAna">
+          {{ site.title }}
+        </div>
+      <!-- 导航栏靠右 -->
+      <div class="pc">
+        {% include nav.html %}
+      </div>
     </div>
+  </div>
     <div class="ortalaAna">
       <div class="yazilar">
         <div class="yazi">

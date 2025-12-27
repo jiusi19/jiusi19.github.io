@@ -164,15 +164,6 @@ body {
   margin-right: auto;
 }
 
-/* ==================== 新增：导航栏水平布局 ==================== */
-.ust .ortalaAna {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  flex-wrap: wrap;
-}
-/* ==================== 新增结束 ==================== */
-
 .yazi, .yaziUzun {
   margin-right: 5px;
 	margin-left: 5px;
@@ -385,15 +376,13 @@ ul.menuAna {
   margin-top: 15px;
   margin-left: 20px;
   float: left;
-  display: flex !important;  /* 修改：改为flex布局 */
-  justify-content: flex-end !important;  /* 新增：右对齐 */
+  display: block;
   list-style: none;
   height: 50px;
   animation-name: baslik;
   animation-duration: 1.2s;
   animation-fill-mode: forwards;
   width: 570px;
-  
   li {
     float: left;
   }
@@ -890,24 +879,4 @@ ul.menu {
 	.baslik {
 		margin-top: $top-margin-mobile;
 	}
-	
-	/* ==================== 新增：移动端导航栏适配 ==================== */
-	.ust .ortalaAna {
-		flex-direction: column;
-		text-align: center;
-	}
-	
-	ul.menuAna {
-		justify-content: center;
-		flex-wrap: wrap;
-		margin-top: 15px;
-		margin-left: 0;
-		width: auto;
-		height: auto;
-		
-		li {
-			margin: 5px 10px;
-		}
-	}
-	/* ==================== 新增结束 ==================== */
 }

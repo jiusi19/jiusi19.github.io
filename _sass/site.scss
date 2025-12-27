@@ -9,7 +9,7 @@
 	border: 0;
 	background-color: $color_12;
 	border-radius: 3px;
-}
+}f
 body {
   background: $background-color;
   margin: 0px;
@@ -401,20 +401,23 @@ ul.menuAna {
     transition-duration: 1s;
     transition-delay: 0s;
 
-    &:hover {
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 5px;
-      border-bottom: 5px solid $thrid-color;
-      // color: $thrid-color;
+   &:hover {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	  padding-top: 5px;
+	  padding-bottom: 5px;
+	  border-bottom: 3px solid #ffffff;  // 白色下划线
 	  color: #ffffff;  // 白色文字
-  	  text-shadow: 0 0 10px rgba(52, 152, 219, 0.8),  // 蓝色发光
-                   0 0 20px rgba(52, 152, 219, 0.6),
-                   0 0 30px rgba(52, 152, 219, 0.4);
-      float: left;
-      font-family: $menu-font;
-      text-decoration: none;
-    }
+	  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);  // 深色阴影使文字更清晰
+	  float: left;
+	  font-family: $menu-font;
+	  text-decoration: none;
+	  background: rgba(255, 255, 255, 0.1);  // 轻微白色背景
+	  border-radius: 4px;
+	  transform: translateY(-2px) scale(1.05);
+	  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);  // 白色光晕阴影
+	  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	}
   }
 }
 

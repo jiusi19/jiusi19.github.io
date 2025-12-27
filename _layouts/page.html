@@ -38,7 +38,6 @@
             });
             i++;
           }
-
         });
       });
     </script>
@@ -48,29 +47,74 @@
     <div class="menuMobil">
       {% include nav-home.html %}
     </div>
-    <!-- <div class="ust">
+    
+    <!-- 修改的部分开始 -->
+    <style>
+      /* 确保标题和导航在同一行 */
+      .ust .ortalaAna {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        flex-wrap: wrap;
+      }
+      
+      /* 导航菜单水平排列 */
+      .pc .menuAna {
+        display: flex !important;
+        justify-content: flex-end !important;
+        list-style: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      
+      .pc .menuAna .item {
+        margin-left: 20px !important;
+      }
+      
+      .pc .menuAna .link {
+        text-decoration: none;
+        color: #333;
+        padding: 5px 10px;
+        display: block;
+        transition: color 0.3s;
+      }
+      
+      .pc .menuAna .link:hover {
+        color: #3498db;
+      }
+      
+      /* 移动端响应式 */
+      @media (max-width: 768px) {
+        .ust .ortalaAna {
+          flex-direction: column;
+          text-align: center;
+        }
+        
+        .pc .menuAna {
+          justify-content: center;
+          flex-wrap: wrap;
+          margin-top: 15px;
+        }
+        
+        .pc .menuAna .item {
+          margin: 5px 10px !important;
+        }
+      }
+    </style>
+    
+    <div class="ust">
       <div class="ortalaAna">
         <div class="baslikAna">
           {{ site.title }}
         </div>
-
+        
         <div class="pc">
           {% include nav.html %}
         </div>
       </div>
-    </div> -->
-    <div class="ust">
-      <div class="ortalaAna" style="display: flex; justify-content: space-between; align-items: center;">
-      <!-- 标题靠左 -->
-        <div class="baslikAna">
-          {{ site.title }}
-        </div>
-      <!-- 导航栏靠右 -->
-      <div class="pc">
-        {% include nav.html %}
-      </div>
     </div>
-  </div>
+    <!-- 修改的部分结束 -->
+    
     <div class="ortalaAna">
       <div class="yazilar">
         <div class="yazi">
